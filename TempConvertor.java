@@ -52,7 +52,10 @@ public class TempConvertor {
 	}
 
 	private static BufferedReader callMenu() {
+		System.out.println("""""""""""""""""""""""""""""""""");
 		System.out.println("This is a Temperature Convertor");
+		System.out.println("""""""""""""""""""""""""""""""""");
+		
 		System.out.println("Please enter a number between 1-3:");
 		System.out.println("1. Degree to Farenheit");
 		System.out.println("2. Farenheit to Degree");
